@@ -1,3 +1,4 @@
+"""
 This tool computes the cartesian product of input iterables.
 It is equivalent to nested for-loops.
 For example, product(A, B) returns the same as ((x,y) for x in A for y in B
@@ -47,7 +48,7 @@ Sample Output
 
  (1, 3) (1, 4) (2, 3) (2, 4)
 
-_______CODES_____
+_______CODES_____  """
 
 from itertools import product
 A=list(map(int,input().split()))
